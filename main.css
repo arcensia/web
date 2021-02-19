@@ -1,0 +1,56 @@
+*{
+    background: white;
+    color: black;
+    margin: 0px;
+    padding: 0px;  
+    text-decoration:none;
+}
+
+h1 a { text-decoration:none }  
+.menu_area{
+    padding: 3px 10px 3px 10px;
+}
+.Subarea{
+    padding: 2px 5px 2px 5px;
+}
+.sel_stlye::after{
+    border: 3px solid black;
+    border-style: hidden solid hidden hidden;
+}
+header{
+    background-color: white;
+    padding: 30px;
+    text-align: center;
+}
+nav{
+    border: 3px solid black;
+    border-style: solid hidden solid hidden;
+}
+.column{
+    float: left;
+
+} 
+.column.left{
+    width: 10%;
+    border-bottom: 3px solid black;
+}
+.column.right{
+        width: 20%;
+        border-bottom: 3px solid black;
+        float: right;
+}
+.column.middle{
+    width : 70%;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+    
+  }
+.login{
+    margin: 10px;
+    border: 3px solid black;
+}
+
